@@ -1,0 +1,10 @@
+CREATE EXTERNAL TABLE frequencies (
+ trip_id   STRING ,
+ start_time STRING,
+ end_time   STRING,
+ headway_secs INT
+)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+LOCATION'/user/fall2019/surya/project4/frequencies/'
+    
