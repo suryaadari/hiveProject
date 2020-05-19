@@ -1,0 +1,14 @@
+CREATE EXTERNAL TABLE trips (
+    route_id    INT,
+    service_id STRING,
+    trip_id    STRING,
+    trip_headsign STRING,
+    direction_id  INT,
+    shape_id      INT,
+    wheelchair_accessible INT,
+    note_fr         INT,
+    note_en         INT
+    )
+ROW FORMAT DELIMITED 
+FIELDS TERMINATED BY ','
+LOCATION'/user/fall2019/raghu/project4/trips/'
