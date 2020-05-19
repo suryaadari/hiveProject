@@ -1,0 +1,7 @@
+CREATE EXTERNAL TABLE ext_calendar_dates (  
+  service_id     STRING,
+  date           Int,
+  exception_type Int)
+ROW FORMAT DELIMITED  
+FIELDS TERMINATED BY ','  
+LOCATION '/user/fall2019/nithin/project4/calendar_dates';
