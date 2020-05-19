@@ -11,4 +11,4 @@ CREATE EXTERNAL TABLE trips (
     )
 ROW FORMAT DELIMITED 
 FIELDS TERMINATED BY ','
-LOCATION'/user/fall2019/raghu/project4/trips/'
+LOCATION'/user/fall2019/surya/project4/trips/'
