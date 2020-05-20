@@ -4,4 +4,4 @@ CREATE EXTERNAL TABLE ext_calendar_dates (
   exception_type Int)
 ROW FORMAT DELIMITED  
 FIELDS TERMINATED BY ','  
-LOCATION '/user/fall2019/surya/project4/calendar_dates';
+LOCATION '/user/fall2019/srikar1/project4/calendar_dates';
